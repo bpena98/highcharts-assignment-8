@@ -1,0 +1,54 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+
+body{
+padding: 1rem 2rem 1rem 2rem;
+background: #EBD4A6;
+}
+
+h1, h2 {
+    font-family: 'Abril Fatface', 'Georgia', serif;
+}
+
+footer{
+  margin-top: 4rem;
+}
+
+header {
+text-align: center;
+
+}
+
+a link{
+color: #91C3FF;
+
+}
+
+
+#container{
+  margin-top: 3rem;
+  background: #ffffff;
+}
+
+#container2{
+  margin-top: 5rem;
+  background: #ffffff;
+}
+
+@media screen and (max-width:485px){
+
+body{
+  padding: 1.5rem;
+}
+
+#container2{
+  margin-top: 2rem;
+}
+
+
+}
